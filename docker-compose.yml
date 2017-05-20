@@ -30,6 +30,3 @@ services:
       - "MYSQL_DATABASE=dockerApp"
     ports:
       - "33061:3306"
-
-  # composer:
-  #   image: composer/composer:alpine
